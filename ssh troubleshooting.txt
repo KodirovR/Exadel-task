@@ -1,0 +1,3 @@
+1.In order to get information about availability of server need to ping to check the reachability to the public address of the server.
+2.If ping failed,it means server is down.If ping is successfull, check firewall configurations of both sides ensure that 22 port is open and have permission rule for this port.
+3.If firewall configuration is correct, check username and password of ssh user or private key.
